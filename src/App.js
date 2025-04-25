@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>✨ QuoteSpark</h1>
+      <h1>✨ QuoteSpark By Anusha</h1>
       <p className="quote">{quote}</p>
       <button onClick={generateQuote}>New Quote</button>
     </div>
