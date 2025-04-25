@@ -22,3 +22,7 @@ post_build:
   commands:
     - echo Deploying to S3...
     - aws s3 sync build/ s3://quotespark-site --delete
+cache:
+  paths:
+   - 'node_modules/**/*'
+ 
